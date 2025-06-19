@@ -103,5 +103,3 @@ The fine-tuning process is configured across the different modules:
 The training uses the `omni_math_phi.json` dataset, which contains mathematical problems and solutions in a conversation format. Each entry includes:
 - A mathematical problem posed by the user
 - A detailed solution provided by the assistant
-
-Example from the dataset:
