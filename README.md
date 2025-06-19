@@ -52,7 +52,7 @@ This single command handles the installation of:
 
 To start the fine-tuning process, simply run the main training script:
 ```bash
-python Llamacpp/code/training.py
+python code/training.py
 ```
 The script will handle everything from loading the data and model to running the training loop and saving the output to the `outputs/` directory.
 
