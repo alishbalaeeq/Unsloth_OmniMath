@@ -35,9 +35,9 @@ conda activate unsloth_env
 ```
 
 ### 3. Install Dependencies
-This project uses a specific set of libraries for compatibility and performance. The following command, powered by Unsloth, will install the correct versions of PyTorch, Transformers, and other necessary packages for a CUDA 11.8 environment.
+This project uses a specific set of libraries for compatibility and performance. The following command, powered by Unsloth, will install the correct versions of PyTorch, Transformers, and other necessary packages for a CUDA 12.4 environment.
 ```bash
-pip install "unsloth[cu118-torch2.3]=v2024.6"
+pip install "unsloth[cu124]"
 ```
 This single command handles the installation of:
 - `unsloth`
